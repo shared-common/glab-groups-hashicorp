@@ -3,7 +3,7 @@ name: hashicorp-group-sync
 
 "on":
   schedule:
-    - cron: "5 5,17 * * *"
+    - cron: "5 5 1-31/2 * *"
   workflow_dispatch:
 
 permissions: {}
